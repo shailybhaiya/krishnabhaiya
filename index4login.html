@@ -1,0 +1,85 @@
+
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<link rel="stylesheet" href="index4login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<script>
+function nex(form)
+	{	
+	window.open("https://api.thingspeak.com/update?api_key=7Q8TYROZMP47QQS5&field1=2");
+	}
+	function nex1(form)
+	{	
+	window.open("https://api.thingspeak.com/update?api_key=7Q8TYROZMP47QQS5&field1=0");
+	}
+	function nex2(form)
+	{	
+	window.open("https://api.thingspeak.com/update?api_key=7Q8TYROZMP47QQS5&field1=1");
+	}
+	</script>
+
+
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<a href="#">CONTACT US</a>
+			<a href="#">HOME</a>
+		</div>
+	</div>
+	<div class="content">
+		<div id="heading">Welcome Krishna Kothari!
+            <hr>
+        </div>
+        <p style="font-size: 50px; text-align:center; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Activities</p>
+        <div class="container">
+			<form onsubmit="return nex(this)">
+            <img src="c.jpeg" alt="Avatar" class="image">
+            <div class="overlay">
+			  <button class="btn">START / STOP</button>
+              <div class="text">START / STOP</div>
+            </div>
+		</form>
+        </div>
+        <div class="container">
+            <img src="a.jpeg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">VEHICLE LOCATION</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="b.jpeg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">VEHICLE INSTRUCTION</div>
+            </div>
+        </div>
+    </div>
+    <div class="content2">
+        <ul class="alpha">
+		<form onsubmit="return nex1(this)">
+            <li><button class="btn">Unlock Car</button></li></form>
+		<form onsubmit="return nex2(this)">	
+            <li><button class="btn">Lock Car</button></li></form>
+			<li>Previous Log</li>
+            <li>Clear Log</li>
+			
+        </ul>
+    </div>
+    <div class="prefooter">Contact Us</div>
+	<div class="footer">
+		<div class='address'>	Address<br>
+								Indore<br>
+		</div>
+        <div class="contact">
+                                Contacts<br>
+                                Name: Krishna Kothari<br>
+								Email: kk9039763128@gmail.com <br>
+                                Phone: +91 9039763128<br>
+                                
+        </div>
+          
+	</div>
+</body>
+</html>

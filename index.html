@@ -1,0 +1,63 @@
+
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<link rel="stylesheet" href="style4.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+	function nex(form)
+	{
+	var id = form.fname.value;
+	var pass = form.lname.value;
+
+	if(id == "")
+	{
+		alert("Please enter valid ID");
+	}
+	else if(pass == "")
+	{
+		alert("Please enter valid password");
+	}
+	else
+	{
+		if(id == "krishna" && pass == "good124")
+		{
+			window.open("index4login.html");
+			alert("Welcome");
+		}
+		else{
+		alert("Incorrect Password");
+	}
+	
+	}}
+</script>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<a href="#">HOME</a>
+			<a href="#">REGISTER</a>
+			<a href="#">CONTACT US</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="heading">VEHICLE <br> INFOTAINMENT <br> SYSTEM</div>
+		<div class="login">
+			<li>
+
+			</li>
+			<form onsubmit="return nex(this)">
+			<label for="name">USER ID</label><br>
+			<input type="text" id="fname" name="fname" placeholder="Enter Username"><br>
+			<label for="name">PASSWORD</label><br>
+			<input type="password" id="lname" name="lname" placeholder="Enter Password"><br>
+			<input type="submit" value="Submit">
+		 	</form>
+		</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+</body>
+</html>
